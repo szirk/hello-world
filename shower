@@ -1,0 +1,173 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Shower now!</title>
+        <style>
+        #navigationbar {height: 50px;
+                        width: 100%;
+                        background-color: white;
+                        padding: 10px;
+                        background-color: #dddddd;
+                        font-family: sans-serif;
+                        font-size: 12px;
+                      }
+        #bigframe {height: 100%;
+                    width: 90%;
+                    padding: 10px 20px 10px 20px;
+                    background-color: transparent;
+                    margin: 0 auto;
+                  }
+        .donatebox {width: 325px;
+                    height: 400px;
+                    background-color: #dddddd;
+                    float: left;
+                    margin: 20px 5px 20px 5px;
+                    padding:10px;
+                    text-align: center;
+                  }
+        body {background-color: black;
+              text-align: center;
+        }
+        .textbox {width: 250px;
+                  min-height: 100px;
+                  text-align: left;
+                  margin: 5px 20px 5px 35px;
+        }
+        h1 {font-size: 18px;
+            font-family: sans-serif;
+        }
+        p {font-size: 14px;
+          font-family: sans-serif;
+        }
+        button {margin-top: 5px;
+                background-color: green;
+                color: white;
+        }
+        .progressbox {margin-left: 20px;
+                      margin-right: 20px;
+      }
+        .progressbox button {text-align: : center;
+      }
+        .whiteprogressbar {background-color: white;
+        }
+        .greenprogressbar {background-color: green;
+                            height: 3px;
+                            width: 70%;
+                          }
+        .numberofshowers {float: left;
+                          font-size: 10px;
+                          font-weight: bold;
+        }
+        .percent {width: 50px;
+                  margin: 0 auto;
+                  font-size: 10px;
+                  font-weight: bold;
+                }
+        .goal {float: right;
+          font-size: 10px;
+          font-weight: bold;
+        }
+        #listitems {float: right;
+                    margin-right: 40px;
+                }
+        #listitems li {display: inline;
+                        margin-right: 20px;
+        }
+        #listitems a {color: black;
+                      font-weight: bold;
+                      text-decoration: none;
+                    }
+        #listitems a:hover {font-size: 14px;
+                            color: green;
+                          }
+        #logo {float: left;
+              margin-left: 40px;}
+
+
+
+        </style>
+
+
+  </head>
+  <body>
+    <div id="navigationbar">
+      <nav>
+        <img id="logo" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6T1mhIJQKCHtBr_K4shq38y85GKxj25qMlNORpqsjOJCpdtHw" width="50" height="50" alt=showerlogo>
+        <ul id="listitems">
+          <li> <a href="#">SHOWERPLACES</a>
+          </li>
+          <li> <a href="#">BLOG</a>
+          </li>
+          <li> <a href="#">GALLERY</a>
+          </li>
+          <li> <a href="#">CONTACT</a>
+          </li>
+
+        </ul>
+
+
+      </nav>
+    </div>
+    <div id="bigframe">
+      <div class="donatebox">
+        <img
+        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqwsuzweqKvZcw4g3VbJD9dd-JNZoLvmUKUKiDrAE8nKWLrq_f" alt=kidsplaying>
+          <div class="textbox"><h1>I LOVE THIS WATERFALL!</h1>
+          <p>Look at these young kids enjoyig the waterfall in our resort! Come and visit us and have a wonderful shower under  waterfall every day! This way at least we can make sure you stay clean!
+        </div>
+        <div class="progressbox">
+        <div class="whiteprogressbar">
+          <div class="greenprogressbar"> </div>
+        </div>
+          <div class="numberofshowers"> 30 people
+          </div>
+          <div class="goal"> 1000 people
+          </div>
+          <div class="percent"> 3%
+          </div>
+          <button>SHOWER NOW!</button>
+      </div>
+    </div>
+    <div class="donatebox">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTefMn1RBgZS0-0hFpuv2KlSecxHLM0dQ72jx-krv7z0IBKihFZ" alt=waterbotle>
+      <div class="textbox"><h1>I LOVE THIS WATER!</h1>
+      <p>The water is so nice and fresh that you can even bottle it and have a crazy party with your friends! Do not miss the chance to party with the help of our great water!
+    <div class="progressbox">
+    <div class="whiteprogressbar">
+      <div class="greenprogressbar"> </div>
+    </div>
+      <div class="numberofshowers"> 20 people
+      </div>
+      <div class="goal"> 1000 people
+      </div>
+      <div class="percent"> 2%
+      </div>
+        <button>DRINK NOW!</button>
+    </div>
+  </div>
+    </div>
+    <div class="donatebox">
+      <img src="data:image/jpeg;base64,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" alt=babyinsink>
+      <div class="textbox"><h1>I LOVE THIS BATH!</h1>
+      <p>If you are a baby or a small kid and have parents who think they are 'funny', you may even end up in the sink! If you are even more unfortunate, you need to share it with your twin sibling!
+    <div class="progressbox">
+    <div class="whiteprogressbar">
+      <div class="greenprogressbar"> </div>
+    </div>
+      <div class="numberofshowers"> 2 people
+      </div>
+      <div class="goal"> 1000 people
+      </div>
+      <div class="percent"> 0.2%
+      </div>
+        <button>BATH NOW!</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+
+</html>
