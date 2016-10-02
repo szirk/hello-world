@@ -1,0 +1,80 @@
+#navigationbar {height: 50px;
+                width: 100%;
+                background-color: white;
+                padding: 10px;
+                background-color: #dddddd;
+                font-family: sans-serif;
+                font-size: 12px;
+              }
+#bigframe {height: 100%;
+            width: 90%;
+            padding: 10px 20px 10px 20px;
+            background-color: transparent;
+            margin: 0 auto;
+          }
+.donatebox {width: 325px;
+            height: 400px;
+            background-color: #dddddd;
+            float: left;
+            margin: 20px 5px 20px 5px;
+            padding:10px;
+            text-align: center;
+          }
+body {background-color: black;
+      text-align: center;
+}
+.textbox {width: 250px;
+          min-height: 100px;
+          text-align: left;
+          margin: 5px 20px 5px 35px;
+}
+h1 {font-size: 18px;
+    font-family: sans-serif;
+}
+p {font-size: 14px;
+  font-family: sans-serif;
+}
+button {margin-top: 5px;
+        background-color: green;
+        color: white;
+}
+.progressbox {margin-left: 20px;
+              margin-right: 20px;
+}
+.progressbox button {text-align: center;
+}
+.whiteprogressbar {background-color: white;
+}
+.greenprogressbar {background-color: green;
+                    height: 3px;
+                    width: 70%;
+                  }
+.numberofshowers {float: left;
+                  font-size: 10px;
+                  font-weight: bold;
+}
+.percent {width: 50px;
+          margin: 0 auto;
+          font-size: 10px;
+          font-weight: bold;
+        }
+.goal {float: right;
+  font-size: 10px;
+  font-weight: bold;
+}
+#listitems {float: right;
+            margin-right: 40px;
+            margin-top: 20px;
+        }
+#listitems li {display: inline;
+                margin-right: 20px;
+}
+#listitems a {color: black;
+              font-weight: bold;
+              text-decoration: none;
+            }
+#listitems a:hover {font-size: 14px;
+                    color: green;
+                  }
+#logo {float: left;
+      margin-left: 40px;}
