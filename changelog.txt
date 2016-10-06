@@ -1,0 +1,7 @@
+Changelog:
+- changed file extension to html
+- ran HTML formatter
+- ran CSS formatter
+- moved styles to an external CSS
+- 2nd and 3rd progress boxes were children of the textboxes, moved them under donatebox (button horizontal align fix)
+- added 20px margin-top to #listitems (vertical align fix)
